@@ -8,7 +8,7 @@ import numpy as np
 def hz2cents(pitch_hz, tonic=440):
     return 1200 * np.log2(pitch_hz / float(tonic))
 
-# SET YOUR DUNYA API KEY HERE '5523db6f2169631449c4a5b9642233f03b5792a8'
+# SET YOUR DUNYA API KEY HERE
 API_KEY =''
 dunya.set_token(API_KEY)
 
